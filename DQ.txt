@@ -1,0 +1,41 @@
+Single Burger, S, $4.99
+Double Burger, M, $6.49
+Triple Burger, L, $7.79
+Bacon Lover's Delight, S, $5.39
+Mushroom Swiss Burger, M, $6.99
+BBQ Bacon Ranch Burger, M, $6.99
+Veggie Burger, S, $4.99
+Classic Chicken Sandwich, S, $5.49
+Spicy Chicken Sandwich, S, $5.49
+Homestyle Chicken Sandwich, S, $5.49
+Grilled Chicken Sandwich, S, $5.49
+Crispy Chicken Deluxe, M, $6.99
+Buffalo Chicken Wrap, S, $5.99
+Caesar Chicken Wrap, S, $5.99
+Chicken Tenders, 4-piece, $4.99
+Chicken Tenders, 6-piece, $6.99
+Chicken Tenders, 8-piece, $8.99
+Fish Sandwich, S, $5.49
+Shrimp Basket, M, $7.99
+Fish & Shrimp Combo, L, $9.99
+Chili Dog, S, $3.99
+Corn Dog, S, $2.99
+Footlong Chili Dog, L, $5.99
+French Fries, S, $2.49
+French Fries, M, $3.49
+Onion Rings, S, $3.49
+Cheese Curds, M, $4.99
+Coleslaw, S, $1.99
+Soft Serve Cone, S, $1.99
+Soft Serve Cone, M, $2.49
+Blizzard Treat (Various Flavors), S, $3.99
+Blizzard Treat (Various Flavors), M, $4.49
+Banana Split, L, $5.99
+Hot Fudge Sundae, S, $3.49
+Apple Pie Blizzard, S, $4.49
+Soft Drink, S, $1.99
+Soft Drink, M, $2.49
+Soft Drink, L, $2.99
+Lemonade, M, $2.99
+Iced Coffee, M, $3.49
+Milkshake (Various Flavors), M, $4.49

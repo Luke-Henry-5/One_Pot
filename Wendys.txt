@@ -1,0 +1,52 @@
+Baconator, S, $5.79
+Baconator, M, $7.19
+Baconator, L, $8.49
+Dave's Single, S, $4.99
+Dave's Double, M, $6.49
+Dave's Triple, L, $7.79
+Son of Baconator, S, $5.39
+Classic Chicken Sandwich, S, $5.49
+Spicy Chicken Sandwich, S, $5.49
+Homestyle Chicken Sandwich, S, $5.49
+Grilled Chicken Sandwich, S, $5.49
+Spicy Chicken Nuggets, 4-piece, $1.29
+Spicy Chicken Nuggets, 6-piece, $1.99
+Spicy Chicken Nuggets, 10-piece, $3.49
+Crispy Chicken Nuggets, 4-piece, $1.29
+Crispy Chicken Nuggets, 6-piece, $1.99
+Crispy Chicken Nuggets, 10-piece, $3.49
+10-Piece Chicken Nuggets, S, $2.99
+Chicken Go Wrap (Grilled), S, $1.79
+Chicken Go Wrap (Crispy), S, $1.79
+Chicken Caesar Salad (Full Size), S, $6.49
+Apple Pecan Chicken Salad (Full Size), S, $6.49
+Southwest Avocado Chicken Salad (Full Size), S, $6.49
+Caesar Side Salad, S, $1.79
+Chili, S, $2.19
+Chili, L, $2.99
+Baked Potato, S, $2.49
+Sour Cream and Chives Baked Potato, S, $2.99
+Cheddar Cheese Baked Potato, S, $2.99
+Plain Baked Potato, S, $2.49
+Classic Frosty, S, $0.99
+Classic Frosty, M, $1.99
+Classic Frosty, L, $2.79
+Vanilla Frosty, S, $0.99
+Vanilla Frosty, M, $1.99
+Vanilla Frosty, L, $2.79
+Chocolate Frosty, S, $0.99
+Chocolate Frosty, M, $1.99
+Chocolate Frosty, L, $2.79
+French Fries, S, $1.79
+French Fries, M, $2.09
+French Fries, L, $2.39
+Cheeseburger, S, $1.49
+Jr. Cheeseburger Deluxe, S, $1.89
+Jr. Bacon Cheeseburger, S, $1.99
+Crispy Chicken Sandwich, S, $1.49
+Crispy Chicken BLT, S, $1.99
+Double Stack, S, $1.69
+6-Piece Chicken Nuggets, S, $1.99
+10-Piece Chicken Nuggets, S, $2.99
+Grilled Chicken Wrap, S, $1.79
+Crispy Chicken Wrap, S, $1.79
