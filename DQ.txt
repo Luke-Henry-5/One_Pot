@@ -1,41 +1,59 @@
-Single Burger, S, $4.99
-Double Burger, M, $6.49
-Triple Burger, L, $7.79
-Bacon Lover's Delight, S, $5.39
-Mushroom Swiss Burger, M, $6.99
-BBQ Bacon Ranch Burger, M, $6.99
-Veggie Burger, S, $4.99
-Classic Chicken Sandwich, S, $5.49
-Spicy Chicken Sandwich, S, $5.49
-Homestyle Chicken Sandwich, S, $5.49
-Grilled Chicken Sandwich, S, $5.49
-Crispy Chicken Deluxe, M, $6.99
-Buffalo Chicken Wrap, S, $5.99
-Caesar Chicken Wrap, S, $5.99
-Chicken Tenders, 4-piece, $4.99
-Chicken Tenders, 6-piece, $6.99
-Chicken Tenders, 8-piece, $8.99
-Fish Sandwich, S, $5.49
-Shrimp Basket, M, $7.99
-Fish & Shrimp Combo, L, $9.99
-Chili Dog, S, $3.99
-Corn Dog, S, $2.99
-Footlong Chili Dog, L, $5.99
-French Fries, S, $2.49
-French Fries, M, $3.49
-Onion Rings, S, $3.49
-Cheese Curds, M, $4.99
-Coleslaw, S, $1.99
-Soft Serve Cone, S, $1.99
-Soft Serve Cone, M, $2.49
-Blizzard Treat (Various Flavors), S, $3.99
-Blizzard Treat (Various Flavors), M, $4.49
-Banana Split, L, $5.99
-Hot Fudge Sundae, S, $3.49
-Apple Pie Blizzard, S, $4.49
-Soft Drink, S, $1.99
-Soft Drink, M, $2.49
-Soft Drink, L, $2.99
-Lemonade, M, $2.99
-Iced Coffee, M, $3.49
-Milkshake (Various Flavors), M, $4.49
+DQ Cheeseburger, Single, $3.89
+DQ Cheeseburger, Double, $5.69
+DQ Cheeseburger, Triple, $7.49
+1/4 lb. Bacon Cheese GrillBurger, $5.09
+1/2 lb. FlameThrower GrillBurger, $6.29
+1/4 lb. Mushroom Swiss GrillBurger, $5.09
+1/2 lb. FlameThrower GrillBurger, $6.29
+Crispy Chicken Sandwich, $6.49
+Grilled Chicken Sandwich, $6.49
+Chicken Bacon Ranch Sandwich (Grilled or Crispy), $7.29
+Chicken Mozzarella Sandwich (Grilled or Crispy), $7.29
+Chicken BLT Sandwich (Grilled or Crispy), $7.29
+Fish Sandwich, $6.29
+Chili Cheese Dog, $3.39
+Classic Dog, $2.59
+4-Piece Chicken Strip Basket, $7.09
+6-Piece Chicken Strip Basket, $8.59
+Chicken BLT Salad, $7.29
+Chicken Garden Greens Salad, $7.29
+Side Salad, $2.19
+Fries, Regular, $2.79
+Fries, Large, $3.29
+Onion Rings, Regular, $2.99
+Onion Rings, Large, $3.49
+Cheese Curds, Regular, $4.59
+Cheese Curds, Large, $5.59
+Pretzel Sticks with Zesty Queso, $3.69
+Cheeseburger Kids' Meal, $4.99
+Chicken Strips Kids' Meal, $4.99
+Hot Dog Kids' Meal, $4.99
+DQ Sandwich, $2.29
+Dilly Bar, $1.99
+Buster Bar, $2.79
+Cone, Small, $1.99
+Cone, Medium, $2.39
+Cone, Large, $2.79
+Blizzard Treat, Mini, $3.29
+Blizzard Treat, Small, $3.89
+Blizzard Treat, Medium, $4.49
+Blizzard Treat, Large, $4.99
+Royal Blizzard Treat, Mini, $3.99
+Royal Blizzard Treat, Small, $4.59
+Royal Blizzard Treat, Medium, $5.29
+Royal Blizzard Treat, Large, $5.79
+Soft Drink, Small, $1.79
+Soft Drink, Medium, $1.99
+Soft Drink, Large, $2.29
+Misty Slush, Small, $1.79
+Misty Slush, Medium, $1.99
+Misty Slush, Large, $2.29
+Arctic Rush, Small, $1.79
+Arctic Rush, Medium, $1.99
+Arctic Rush, Large, $2.29
+Orange Julius Original, Small, $2.29
+Orange Julius Original, Medium, $2.79
+Orange Julius Original, Large, $3.29
+MooLatte Frozen Coffee, Small, $3.79
+MooLatte Frozen Coffee, Medium, $4.29
+MooLatte Frozen Coffee, Large, $4.79

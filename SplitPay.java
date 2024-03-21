@@ -21,6 +21,7 @@ public static void buildGUI() {
    frame.setSize(400, menu.length * 50);
    panel.setLayout(null);
    frame.setLocationRelativeTo(null);
+   frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
    int startYLbl = -105;
    int startYTxt = -20;
@@ -123,6 +124,7 @@ public static double calculateCost() throws FileNotFoundException {
 
      double share = total / numPeople;
      System.out.println("Each person should pay: $" + share);
+     input.close();
      return share;
 }
 

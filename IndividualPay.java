@@ -222,6 +222,7 @@ public static void calculateCost(JTextField tipTxt ) throws FileNotFoundExceptio
    frame.add(panel);
    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
    frame.setVisible(true);
+   input.close();
 }
 public static double round(double value, int places) {
    if (places < 0) throw new IllegalArgumentException();

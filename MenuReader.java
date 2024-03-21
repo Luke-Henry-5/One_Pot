@@ -1,4 +1,24 @@
 package DairyQueen;
+// FINISH THIS BEFORE FRIDAY
+/*
+ * Workflow:
+ * guestOrHost decides guest or host
+ * 
+ * Choosing Guest takes you into the guest GUI where you enter the guest party code and thats
+ * 
+ * Choosing host has the user enter the number of people involved. Creating an array of the given length, and then takes you into menu selection
+ * 
+ * menuSelection() parses the menu file and then populates a table for the different menues contained in the file. processMenu() is called when the user makes a selection
+ * 
+ * processMenu() navigates to the txt file that contains the menu for the selected restaurant. The user then selects the food/drink ordered for each person and amount.
+ * processMenu() calls writeFile() 
+ * 
+ * writeFile() is called for each person involved which writes the prices of their selected items in a file, each person gets a row on the file
+ * 
+ * processMenu() also then calls calculateCost()
+ * 
+ * calculateCost() reads the previously written file and calculates the cost per person incorporating tax and tip (utilizes 6% sales tax in PA, Hypothetically )
+ */
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -94,9 +114,7 @@ public class MenuReader{
         
         JButton button = new JButton("Next");
         button.setBounds(270, 43, 100, 25);
-        // TODO: this button will bring up the menu selector, use this as the next step for the MIGHT NEED TO SET VISIBILITY TO FALSE INSTEAD OF DISPOSING
         button.addActionListener((event) -> {frame.dispose(); try{menuSelection(text);} catch (IOException e) {System.out.println("Menu Selection error");}});
-        //button.addActionListener((event) -> {party = new int[Integer.parseInt(text.getText())]; frame.dispose(); try {processMenu();} catch (IOException e) {e.printStackTrace();}});
         panel.add(button);
      
         frame.getRootPane().setDefaultButton(button);
@@ -104,23 +122,21 @@ public class MenuReader{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
      }
-    //TODO: enter doesn't hit confirm, it goes to the next restaurant
-     private static void menuSelection(JTextField text) throws FileNotFoundException {
+    private static void menuSelection(JTextField text) throws FileNotFoundException {
         JFrame frame = new JFrame("Choose a Restaurant");
         Scanner scanner = new Scanner(new File("/Users/lukehenry/Documents/Coding /DairyQueen/Menus.txt"));
         String[] menus = scanner.nextLine().split(",");
+        scanner.close();
 
         DefaultTableModel model = new DefaultTableModel(new Object[]{"Restaurant"}, 0);
         JTable table = new JTable();
         table.setModel(model);
         for(String restaurant : menus) {
-            //System.out.println(restaurant+".txt");
             model.addRow(new Object[]{restaurant});
         }
         TableRowSorter<DefaultTableModel> sorter = new TableRowSorter<>(model);
         table.setRowSorter(sorter);
 
-        // Add a search box above the table
         JTextField searchBox = new JTextField();
         searchBox.getDocument().addDocumentListener(new DocumentListener() {
             @Override
@@ -136,11 +152,11 @@ public class MenuReader{
                 filterTable();
             }
             private void filterTable() {
-                String text = searchBox.getText();
-                if (text.trim().length() == 0) {
+                String search = searchBox.getText();
+                if (search.trim().length() == 0) {
                     sorter.setRowFilter(null);
                 } else {
-                    sorter.setRowFilter(javax.swing.RowFilter.regexFilter("(?i)" + text));
+                    sorter.setRowFilter(javax.swing.RowFilter.regexFilter("(?i)" + search));
                 }
             }
         });
@@ -153,6 +169,7 @@ public class MenuReader{
         JButton confirm = new JButton("Confirm");
         confirm.setBounds(50, 50, 50, 50);
         confirm.addActionListener((event) -> {
+            // THIS IS WHERE THE AMOUNT OF PEOPLE IS SET/SAVED
             party = new int[Integer.parseInt(text.getText())];
             try {
                 int selectedRow = table.getSelectedRow();
